@@ -1,0 +1,72 @@
+body{
+	font-family: arial,sans-serif;
+    font-size: 14px;
+}
+
+#foot{
+	width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    min-width: 600px;
+}
+
+#nav{
+	border-collapse: collapse;
+    text-align: left;
+    margin: 30px auto 30px;
+}
+
+#nav td{
+	text-align:center;
+}
+
+td a, td a div{
+	color:rgb(66, 133, 244);
+	text-decoration: none;
+}
+
+td a:hover{
+	text-decoration: underline;
+}
+
+td span{
+	display:inline-block;
+	height:40px;
+}
+
+td .pageStart{
+	background: url('../images/navlogo.png') no-repeat;
+    background-position: -24px 0;
+    width: 28px;
+}
+
+td .pagePrev{
+	background: url('../images/navlogo.png') no-repeat;
+	background-position: 0 0;
+    width: 53px;
+	float: right;
+}
+
+td .pageNext{
+	background: url('../images/navlogo.png') no-repeat;
+    background-position: -96px 0;
+    width: 71px;
+}
+
+td .pageEnd{
+	background: url('../images/navlogo.png') no-repeat;
+    background-position: -96px 0;
+    width: 48px;
+}
+
+td .pageSelected{
+	background: url('../images/navlogo.png') no-repeat;
+    background-position: -53px 0;
+    width: 20px;
+}
+
+td .pageUnselected{
+	background: url('../images/navlogo.png') no-repeat;
+    background-position: -74px 0;
+	width: 20px;
+}
